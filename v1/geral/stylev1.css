@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-image: url(../img/cabecalho.png);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.logotext{
+    color: white;
+    padding-right: 700;
+    text-transform: uppercase;
+    border-radius: 50px;
+    padding: 10px 10px;
+}
+
+.logotext:hover{
+    background-color: rgba(37, 70, 80, 0.1);
+
+}
+
+.menu{
+    margin: 0;
+    display: inline-block;
+    padding-left: 600px;
+
+}
+
+.menu a{
+    font-size: 20px;
+    text-decoration:none;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 15px;
+    border-radius: 50px;
+}
+
+.menu a:hover{
+    background-color: rgba(37, 70, 80, 0.2);
+}
+
+body{
+    background-image: url(../img/b1.png);
+
+}
+
+
+.logopag1{
+    width: 573px;
+    height: 573px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    padding-left: 100px;
+}
+
